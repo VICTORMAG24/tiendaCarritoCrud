@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header-container">
+            <div class="header-content">
+                <h1>tienda</h1>
+                <div class="carrito-container">
+                    <div class="content-btn-card">
+                        <button class="fas fa-truck fa-lg  btn-carrito" data-tienda-id="0">
+                        </button>
+                        <div class="carrito hidden-cart">
+                            <table>
+                                <thead>
+                                    <tr class="grid-carrito">
+                                        <th class="th-cart">imagen</th>
+                                        <th class="th-cart">nombre</th>
+                                        <th class="th-cart">precio</th>
+                                        <th class="th-cart">cantidad</th>
+                                        <th class="th-cart">eliminar</th>
+                                    </tr>
+                                </thead>
+                                <tbody class="items-cart"></tbody>
+                            </table>
+                            <a class="button-vaciar u-full-width">Vaciar Carrito</a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section>
+        <div class="container-section">
+            <div class="content-section">
+                <div class="container-card">
+                    <!-- <div class="main-card">
+                           <figure>
+                              <img src="https://www.reasonwhy.es/media/library/zapatillas-vans-aniversario-reasonwhy.es_.png"
+                                alt="">
+                            </figure>
+                        <div class="main-text">
+                            <h4 class="nombre">zapatos vans</h4>
+                            <span class="precio">$80</span>
+                            <button class="btn-add-carrito" data-tienda-id="0">agregar al carrito</button>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="bd.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
