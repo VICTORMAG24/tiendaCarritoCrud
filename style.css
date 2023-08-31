@@ -196,26 +196,51 @@ h4 {
 
 }
 
-@media(max-width: 488px){
-    .container-card{
+@media(max-width: 488px) {
+    .container-card {
         max-width: 400px;
     }
-    .main-card{
+
+    .main-card {
         max-width: 250px;
         max-height: 315px;
         margin-bottom: 35px;
     }
-    .header-content{
+
+    .header-content {
         width: 464px;
     }
 
-    .carrito{
+    .carrito {
         max-width: 410px;
-       
+
     }
-    .th-cart, td{
+
+    .th-cart,
+    td {
         font-size: 13px;
         width: auto;
-       padding: 10px;
+        padding: 10px;
     }
+}
+
+@media(max-width: 390px) {
+   .container-card{
+        width: 390px;
+        margin:  0 auto;
+    }
+
+    .header-container, .header-content{
+        width: 390px;
+    }
+    .main-card {
+        max-width: 200px;
+        max-height: 310px;
+        margin-bottom: 35px;
+    }
+    .main-text{
+        width: 150px;
+        
+    }
+
 }
