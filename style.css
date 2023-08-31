@@ -197,9 +197,7 @@ h4 {
 }
 
 @media(max-width: 488px) {
-    .container-card {
-        max-width: 400px;
-    }
+  
 
     .main-card {
         max-width: 250px;
@@ -226,7 +224,7 @@ h4 {
 
 @media(max-width: 390px) {
     .container-card {
-        width: 390px;
+        width: 300px;
         margin: 0 auto;
     }
 
