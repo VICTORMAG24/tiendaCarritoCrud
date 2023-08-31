@@ -42,7 +42,7 @@ td {
 .grid-carrito,
 tr {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns:repeat(5 , 1fr);
     text-align: center;
     
 }
@@ -252,19 +252,20 @@ h4 {
     .th-cart,
     td {
         max-width: 380px;
-        font-size: 10px;
+        font-size: 8px;
         width: auto;
         padding: 2px;
     }
 
     .grid-carrito {
-        grid-template-columns: repeat(5, 0.1fr);
+        grid-template-columns: repeat(5, 42.5px );
+
     }
 
     tr {
         grid-template-columns: repeat(5, 42.5px);
-        
         width: 200px;
+        
     }
 
     .img-tb {
